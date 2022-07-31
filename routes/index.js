@@ -5,7 +5,7 @@ var router = express.Router();
 router.get("/", (req, res, next) => {
   //db
   // const data = await Employee.findAll()
-  res.render("index", { title: "Hello", data: [] });
+  res.render("index", { title: "Login", data: [] });
 });
 
 module.exports = router;
